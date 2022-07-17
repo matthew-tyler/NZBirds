@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NZBirds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Birds Of Aotearoa</h1>
+    </header>
+    <main>
+        <section id="search-area">
+            <form action="">
+                <h2>Filter Birds</h2>
+                <label for="searchbar">Search</label>
+                <input type="text" id="searchbar" name="searchbar"><br><br>
+                <label for="conservation-status">Conservation Status</label>
+                <select name="conservation-status" id="conservation-status">
+                    <option value="notThreatened">Not Threatened</option>
+                    <option value="naturallyUncommon">Naturally Uncommon</option>
+                    <option value="relict">Relict</option>
+                    <option value="recovering">Recovering</option>
+                    <option value="declining">Declining</option>
+                    <option value="nationallyIncreasing">Nationally Increasing</option>
+                    <option value="nationallyVulnerable">Nationally Vulnerable</option>
+                    <option value="nationallyEndangered">Nationally Endangered</option>
+                    <option value="nationallyCritical">Nationally Critical</option>
+                    <option value="extinct">Extinct</option>
+                    <option value="dataDeficient">Data Deficient</option>
+                </select><br><br>
+                <label for="sort-by">Sort By</label>
+                <select name="sort-by" id="sort-by">
+                    <option value="lightestToHeaviest">Lightest to heaviest</option>
+                </select><br><br>
+            </form>
+        </section>
+        <section id="grid">
+            <article class="bird-card">
+                <section class="bird-image-container">
+                    <img src="stitchbird-2.jpg" alt="picture of a Hihi" />
+                    <h2>Hihi</h2>
+                    <p>Photo by Tony Whitehead</p>
+                </section>
+                <section class="bird-details-container">
+                    <h3>Stitchbird</h3>
+                    <span class="scientificNameHeader">Scientific Name:</span><span class="scientificName"> Notiomystis cincta</span>
+                    <span class="family">Family:</span><p> Notiomystidae</p>
+                    <p>Order: Passeriformes</p>
+                    <p>Status: Nationally Vulnerable</p>
+                    <p>Length: </p>
+                </section>
+            </article>
+        </section>
+    </main>
+    <footer><p>Data licensed from <a href="https://www.birdsnz.org.nz/">Birds New Zealand</a> for educational use within the University Of Otago</p></footer>
 </body>
 </html>
