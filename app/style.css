@@ -1,0 +1,96 @@
+:root {
+
+    /* Design Colour Palette */
+    --primary: #F5F0BB;
+    --secondary: #C4DFAA;
+    --accent-one: #90C8AC;
+    --accent-two: #73A9AD;
+    --text: black;
+
+    /* Conservation status colour scheme*/
+    --not-threatened: #02a028;
+    --naturally-uncommon: #649a31;
+    --relict: #99cb68;
+    --recovering: #fecc33;
+    --declining: #fe9a01;
+    --nationally-increasing: #c26967;
+    --nationally-vulnerable: #9b0000;
+    --nationally-endangered: #660032;
+    --nationally-critical: #320033;
+    --extinct: black;
+    --data-deficient: black;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+    
+  }
+
+  html,body {
+    background-color: var(--primary);
+    display: flex;
+    width: 100wh;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  header {
+    background-color: var(--secondary);
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex: auto;
+  }
+
+  footer {
+    background-color: var(--secondary);
+    text-align: center;
+    margin-top: 4em;
+  }
+
+  #search-area{
+    padding-right: 1em;
+    border-radius: 20px;
+    padding-top: 4em;
+    padding-left: 1em;
+  }
+
+  #grid {
+    display: grid;
+    flex-grow: 1;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+    grid-template-rows: auto;
+    padding-top: 4em;
+  }
+
+  .bird-card {
+    background-color: var(--accent-one);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    
+  
+  }
+
+  .bird-image{
+    display: block;
+    width: 100%;
+    height: auto;
+
+    
+  }
+
+  .bird-title {
+    transform: translate(-100px);
+  
+  }
