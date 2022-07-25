@@ -1,96 +1,160 @@
 :root {
+  /* Design Colour Palette */
+  --primary: #f0ebe3;
+  --secondary: #7d9d9c;
+  --accent-one: white;
+  --accent-two: #73a9ad;
+  --text: black;
 
-    /* Design Colour Palette */
-    --primary: #F5F0BB;
-    --secondary: #C4DFAA;
-    --accent-one: #90C8AC;
-    --accent-two: #73A9AD;
-    --text: black;
-
-    /* Conservation status colour scheme*/
-    --not-threatened: #02a028;
-    --naturally-uncommon: #649a31;
-    --relict: #99cb68;
-    --recovering: #fecc33;
-    --declining: #fe9a01;
-    --nationally-increasing: #c26967;
-    --nationally-vulnerable: #9b0000;
-    --nationally-endangered: #660032;
-    --nationally-critical: #320033;
-    --extinct: black;
-    --data-deficient: black;
-
+  /* Conservation status colour scheme*/
+  --not-threatened: #02a028;
+  --naturally-uncommon: #649a31;
+  --relict: #99cb68;
+  --recovering: #fecc33;
+  --declining: #fe9a01;
+  --nationally-increasing: #c26967;
+  --nationally-vulnerable: #9b0000;
+  --nationally-endangered: #660032;
+  --nationally-critical: #320033;
+  --extinct: black;
+  --data-deficient: black;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
 
-    
-  }
+html,
+body {
+  background-color: var(--primary);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
 
-  html,body {
-    background-color: var(--primary);
-    display: flex;
-    width: 100wh;
-    height: 100vh;
-    flex-direction: column;
-  }
+header {
+  background-color: var(--secondary);
+  text-align: center;
+  box-shadow: 1px -1em 4em #333;
+}
 
-  header {
-    background-color: var(--secondary);
-    text-align: center;
-  }
+header h1 {
+  padding: 0.5em;
+}
 
-  main {
-    display: flex;
-    flex: auto;
-  }
+main {
+  display: flex;
+  flex: auto;
+}
 
-  footer {
-    background-color: var(--secondary);
-    text-align: center;
-    margin-top: 4em;
-  }
+footer {
+  background-color: var(--secondary);
+  text-align: center;
+  margin-top: 4em;
+}
 
-  #search-area{
-    padding-right: 1em;
-    border-radius: 20px;
-    padding-top: 4em;
-    padding-left: 1em;
-  }
+#search-area {
+  display: none;
+  padding-right: 1em;
+  border-radius: 20px;
+  padding-top: 4em;
+  padding-left: 1em;
+}
 
-  #grid {
-    display: grid;
-    flex-grow: 1;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
-    grid-template-rows: auto;
-    padding-top: 4em;
-  }
+#grid {
+  display: grid;
+  flex-grow: 1;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-rows: auto;
+  padding-top: 4em;
+  place-items: center;
+}
 
-  .bird-card {
-    background-color: var(--accent-one);
-    width: 20rem;
-    height: 30rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    position: relative;
-    
-  
-  }
+.bird-card {
+  background-color: var(--accent-one);
+  width: 20rem;
+  height: 30rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2;
+  box-shadow: 0 0 1em #333;
+}
 
-  .bird-image{
-    display: block;
-    width: 100%;
-    height: auto;
+.bird-card:hover {
+  transform: translateY(-1rem);
+}
 
-    
-  }
+.bird-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+}
 
-  .bird-title {
-    transform: translate(-100px);
-  
-  }
+.danger-indicator {
+  background-color: var(--nationally-vulnerable);
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  top: 12rem;
+  right: 1em;
+  border-radius: 50%;
+}
+
+.bird-title {
+  position: absolute;
+  top: 10em;
+  margin-left: 1em;
+  color: white;
+}
+
+.credit {
+  font-size: small;
+}
+
+.english-name {
+  text-align: center;
+  padding-top: 1em;
+
+  font-weight: 700;
+}
+
+.bird-details-container {
+}
+
+dl {
+  list-style: none;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+  margin: 0 auto;
+}
+dd {
+  float: right;
+  clear: right;
+}
+
+dt {
+  text-align: right;
+  font-weight: bold;
+  clear: left;
+  float: left;
+}
+
+dt,
+dd {
+  font-size: small;
+  margin-bottom: 1em;
+}

@@ -1,639 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NZBirds</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Birds Of Aotearoa</h1>
+      <h1>Birds Of Aotearoa</h1>
     </header>
     <main>
-        <section id="search-area">
-            <form action="">
-                <h2>Filter Birds</h2>
-                <label for="searchbar">Search</label>
-                <input type="text" id="searchbar" name="searchbar"><br><br>
-                <label for="conservation-status">Conservation Status</label>
-                <select name="conservation-status" id="conservation-status">
-                    <option value="all">All</option>
-                    <option value="notThreatened">Not Threatened</option>
-                    <option value="naturallyUncommon">Naturally Uncommon</option>
-                    <option value="relict">Relict</option>
-                    <option value="recovering">Recovering</option>
-                    <option value="declining">Declining</option>
-                    <option value="nationallyIncreasing">Nationally Increasing</option>
-                    <option value="nationallyVulnerable">Nationally Vulnerable</option>
-                    <option value="nationallyEndangered">Nationally Endangered</option>
-                    <option value="nationallyCritical">Nationally Critical</option>
-                    <option value="extinct">Extinct</option>
-                    <option value="dataDeficient">Data Deficient</option>
-                </select><br><br>
-                <label for="sort-by">Sort By</label>
-                <select name="sort-by" id="sort-by">
-                    <option value="lightestToHeaviest">Lightest to heaviest</option>
-                </select><br><br>
-            </form>
-        </section>
-        <section id="grid">
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                  <span class="bird-title"><h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p></span>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-           
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            <article class="bird-card">
-                <section class="bird-image-container">
-                    <img class="bird-image" src="stitchbird-2.jpg" alt="picture of a Hihi" />
-                    <h2>Hihi</h2>
-                    <p>Photo by Tony Whitehead</p>
-                </section>
-                <section class="bird-details-container">
-                    <h3 class="english-name">Stitchbird</h3>
-                    <dl>
-                        <dt>Scientific Name</dt>
-                        <dd>Notiomystis cincta</dd>
-                        <dt>Family</dt>
-                        <dd>Notiomystidae</dd>
-                        <dt>Order</dt>
-                        <dd>Passeriformes</dd>
-                        <dt>Status</dt>
-                        <dd>Nationally Vulnerable</dd>
-                        <dt>length</dt>
-                        <dd>18.0 cm</dd>
-                        <dt>Weight</dt>
-                        <dd>33.0 g</dd>
-                    </dl>
-                    
-                </section>
-            </article>
-
-            
-        </section>
+      <section id="search-area">
+        <form action="">
+          <fieldset>
+            <legend>Add me to the filter bird stuff</legend>
+          </fieldset>
+          <h2>Filter Birds</h2>
+          <label for="searchbar">Search</label>
+          <input type="text" id="searchbar" name="searchbar" /><br /><br />
+          <label for="conservation-status">Conservation Status</label>
+          <select name="conservation-status" id="conservation-status">
+            <option value="all">All</option>
+            <option value="notThreatened">Not Threatened</option>
+            <option value="naturallyUncommon">Naturally Uncommon</option>
+            <option value="relict">Relict</option>
+            <option value="recovering">Recovering</option>
+            <option value="declining">Declining</option>
+            <option value="nationallyIncreasing">Nationally Increasing</option>
+            <option value="nationallyVulnerable">Nationally Vulnerable</option>
+            <option value="nationallyEndangered">Nationally Endangered</option>
+            <option value="nationallyCritical">Nationally Critical</option>
+            <option value="extinct">Extinct</option>
+            <option value="dataDeficient">Data Deficient</option></select
+          ><br /><br />
+          <label for="sort-by">Sort By</label>
+          <select name="sort-by" id="sort-by">
+            <option value="lightestToHeaviest">
+              Lightest to heaviest
+            </option></select
+          ><br /><br />
+        </form>
+      </section>
+      <section id="grid">
+        <article class="bird-card">
+          <section class="bird-image-container">
+            <img
+              class="bird-image"
+              src="stitchbird-2.jpg"
+              alt="picture of a Hihi"
+            />
+            <span class="bird-title"
+              ><h2>Hihi</h2>
+              <p class="credit">Photo by Tony Whitehead</p>
+            </span>
+            <div class="danger-indicator"></div>
+          </section>
+          <section class="bird-details-container">
+            <h3 class="english-name">Stitchbird</h3>
+            <dl>
+              <dt>Scientific Name</dt>
+              <dd>Notiomystis cincta</dd>
+              <dt>Family</dt>
+              <dd>Notiomystidae</dd>
+              <dt>Order</dt>
+              <dd>Passeriformes</dd>
+              <dt>Status</dt>
+              <dd>Nationally Vulnerable</dd>
+              <dt>length</dt>
+              <dd>18.0 cm</dd>
+              <dt>Weight</dt>
+              <dd>33.0 g</dd>
+            </dl>
+          </section>
+        </article>
+      </section>
     </main>
-    <footer><p>Data licensed from <a href="https://www.birdsnz.org.nz/">Birds New Zealand</a> for educational use within the University Of Otago</p></footer>
-</body>
+    <footer>
+      <p>
+        Data licensed from
+        <a href="https://www.birdsnz.org.nz/">Birds New Zealand</a> for
+        educational use within the University Of Otago
+      </p>
+    </footer>
+  </body>
 </html>
