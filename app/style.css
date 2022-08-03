@@ -30,6 +30,7 @@
   font-weight: 400;
 }
 
+
 html,
 body {
   background-color: var(--primary);
@@ -60,22 +61,114 @@ footer {
   margin-top: 4em;
 }
 
+
+@keyframes bubble {
+from {width: 10%; }
+to {width: 70%;}
+}
+.animate {
+  animation-name: bubble;
+  animation-duration: 0.3s;
+}
+
 #search-area {
-  display: none;
-  padding-right: 1em;
-  border-radius: 20px;
+  position: fixed;
+  width: 70%;
+  z-index: 100;
+  background-color: white;
+  border-radius: 30px;
+  border-bottom-left-radius: 5px;
   padding-top: 4em;
-  padding-left: 1em;
+  box-shadow: 0 0 1em #333;
+  bottom: 2.7em;
+  left: 2.6em;
+  overflow: hidden;
+
+}
+
+#search-button {
+  background-color: white;
+  position: fixed;
+  border-top-right-radius: 10px;
+  bottom: 0px;
+  width: 3em;
+  height: 3em;
+  z-index: 100;
+  text-align: center;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  overflow: hidden;
+  box-shadow: 0 0 1em #333;
+}
+
+.material-symbols-outlined.md-48{
+  font-size: 48px;
+}
+
+.hide {
+  display: none;
+}
+
+fieldset {
+  margin-left: 25%;
+  margin-bottom: 2em;
+  align-items: center;
+  border:none;
+}
+
+fieldset > * {
+  display: block
+  
+}
+
+fieldset > legend {
+  font-size: large;
+  margin-bottom: 1em;
+}
+
+fieldset > label {
+  margin-bottom: 0.5em;
+}
+
+.search-fields{
+  height: 2em;
+  width: 13em;
+ 
+}
+
+
+
+
+@media only screen and (min-width: 811px) {
+  #search-area {
+    all: unset;
+    display: block;
+    width: 10%;
+    margin-top: 10em;
+    padding-right: 5em;
+
+  }
+
+  #search-button {
+    display: none;
+  }
+
+
+
+
 }
 
 #grid {
   display: grid;
   flex-grow: 1;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   grid-template-rows: auto;
   padding-top: 4em;
   place-items: center;
+ 
 }
 
 .bird-card {
@@ -99,7 +192,7 @@ footer {
   display: block;
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   position: relative;
 }
 
@@ -131,8 +224,6 @@ footer {
   font-weight: 700;
 }
 
-.bird-details-container {
-}
 
 dl {
   list-style: none;
@@ -158,3 +249,6 @@ dd {
   font-size: small;
   margin-bottom: 1em;
 }
+
+
+
