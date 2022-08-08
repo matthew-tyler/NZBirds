@@ -30,7 +30,6 @@
   font-weight: 400;
 }
 
-
 html,
 body {
   background-color: var(--primary);
@@ -61,10 +60,13 @@ footer {
   margin-top: 4em;
 }
 
-
 @keyframes bubble {
-from {width: 10%; }
-to {width: 70%;}
+  from {
+    width: 10%;
+  }
+  to {
+    width: 70%;
+  }
 }
 .animate {
   animation-name: bubble;
@@ -83,7 +85,6 @@ to {width: 70%;}
   bottom: 2.7em;
   left: 2.6em;
   overflow: hidden;
-
 }
 
 #search-button {
@@ -95,15 +96,24 @@ to {width: 70%;}
   height: 3em;
   z-index: 100;
   text-align: center;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
   overflow: hidden;
   box-shadow: 0 0 1em #333;
 }
 
-.material-symbols-outlined.md-48{
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+form {
+  width: 100%;
+}
+.material-symbols-outlined.md-48 {
   font-size: 48px;
 }
 
@@ -112,15 +122,12 @@ to {width: 70%;}
 }
 
 fieldset {
-  margin-left: 25%;
-  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  border:none;
-}
-
-fieldset > * {
-  display: block
-  
+  text-align: center;
+  border: none;
+  margin-bottom: 2em;
 }
 
 fieldset > legend {
@@ -132,32 +139,24 @@ fieldset > label {
   margin-bottom: 0.5em;
 }
 
-.search-fields{
+.search-fields {
   height: 2em;
   width: 13em;
- 
 }
-
-
-
 
 @media only screen and (min-width: 811px) {
   #search-area {
     all: unset;
     display: block;
-    width: 10%;
+    width: 10em;
     margin-top: 10em;
     padding-right: 5em;
-
+    padding-left: 2em;
   }
 
   #search-button {
     display: none;
   }
-
-
-
-
 }
 
 #grid {
@@ -168,7 +167,6 @@ fieldset > label {
   grid-template-rows: auto;
   padding-top: 4em;
   place-items: center;
- 
 }
 
 .bird-card {
@@ -185,25 +183,15 @@ fieldset > label {
 }
 
 .bird-card:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-0.5em);
 }
 
 .bird-image {
   display: block;
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 220px;
+  object-fit: cover;
   position: relative;
-}
-
-.danger-indicator {
-  background-color: var(--nationally-vulnerable);
-  width: 3em;
-  height: 3em;
-  position: absolute;
-  top: 12rem;
-  right: 1em;
-  border-radius: 50%;
 }
 
 .bird-title {
@@ -223,7 +211,6 @@ fieldset > label {
 
   font-weight: 700;
 }
-
 
 dl {
   list-style: none;
@@ -249,6 +236,57 @@ dd {
   font-size: small;
   margin-bottom: 1em;
 }
+.danger-indicator {
+  background-color: white;
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  top: 12rem;
+  right: 1em;
+  border-radius: 50%;
+  border: 2px solid white;
+}
 
+.Threatened {
+  background-color: var(--not-threatened);
+}
 
+.Uncommon {
+  background-color: var(--naturally-uncommon);
+}
 
+.Relict {
+  background-color: var(--relict);
+}
+
+.Recovering {
+  background-color: var(--recovering);
+}
+
+.Declining {
+  background-color: var(--declining);
+}
+
+.Increasing {
+  background-color: var(--nationally-increasing);
+}
+
+.Vulnerable {
+  background-color: var(--nationally-vulnerable);
+}
+
+.Endangered {
+  background-color: var(--nationally-endangered);
+}
+
+.Critical {
+  background-color: var(--nationally-critical);
+}
+
+.Extinct {
+  background-color: var(--extinct);
+}
+
+.Deficient {
+  background-color: var(--data-deficient);
+}

@@ -13,360 +13,76 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <header>
       <h1>Birds Of Aotearoa</h1>
     </header>
-    
-    <main>   
-      <button id="search-button"><span  class="material-symbols-outlined md-48"> search </span></button>
-      <section id="search-area" class="hide">
-        <form  id="birdfilter">
-          <fieldset>
-            <legend>Filter Birds</legend>
-            <label for="searchbar">Search</label>
-            <input type="text" id="searchbar" name="searchbar" class="search-fields" /><br /><br />
-            <label for="conservation-status">Conservation Status</label>
-            <select name="conservation-status" id="conservation-status" class="search-fields">
-              <option value="all">All</option>
-              <option value="notThreatened">Not Threatened</option>
-              <option value="naturallyUncommon">Naturally Uncommon</option>
-              <option value="relict">Relict</option>
-              <option value="recovering">Recovering</option>
-              <option value="declining">Declining</option>
-              <option value="nationallyIncreasing">Nationally Increasing</option>
-              <option value="nationallyVulnerable">Nationally Vulnerable</option>
-              <option value="nationallyEndangered">Nationally Endangered</option>
-              <option value="nationallyCritical">Nationally Critical</option>
-              <option value="extinct">Extinct</option>
-              <option value="dataDeficient">Data Deficient</option></select
-            ><br /><br />
-            <label for="sort-by">Sort By</label>
-            <select name="sort-by" id="sort-by" class="search-fields">
-              <option value="lightestToHeaviest">
-                Lightest to heaviest
-              </option></select
-            ><br /><br />
-            <button id="filterbutton" form="birdfilter" type="button"  class="search-fields">FILTER RESULTS</button>
-          </fieldset>
-         
-        </form>
-      </section>
-      <section id="grid">
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
 
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
-        <article class="bird-card">
-          <section class="bird-image-container">
-            <img
-              class="bird-image"
-              src="stitchbird-2.jpg"
-              alt="picture of a Hihi"
-            />
-            <span class="bird-title"
-              ><h2>Hihi</h2>
-              <p class="credit">Photo by Tony Whitehead</p>
-            </span>
-            <div class="danger-indicator hideobject"></div>
-          </section>
-          <section class="bird-details-container">
-            <h3 class="english-name">Stitchbird</h3>
-            <dl>
-              <dt>Scientific Name</dt>
-              <dd>Notiomystis cincta</dd>
-              <dt>Family</dt>
-              <dd>Notiomystidae</dd>
-              <dt>Order</dt>
-              <dd>Passeriformes</dd>
-              <dt>Status</dt>
-              <dd>Nationally Vulnerable</dd>
-              <dt>length</dt>
-              <dd>18.0 cm</dd>
-              <dt>Weight</dt>
-              <dd>33.0 g</dd>
-            </dl>
-          </section>
-        </article>
+    <main>
+      <button id="search-button">
+        <span class="material-symbols-outlined md-48"> search </span>
+      </button>
+      <section id="search-area" class="hide">
+        <div class="filter-container">
+          <form id="birdfilter">
+            <fieldset>
+              <legend>Filter Birds</legend>
+              <label for="searchbar">Search</label>
+              <input
+                type="text"
+                id="searchbar"
+                name="searchbar"
+                class="search-fields"
+              /><br /><br />
+              <label for="conservation-status">Conservation Status</label>
+              <select
+                name="conservation-status"
+                id="conservation-status"
+                class="search-fields"
+              >
+                <option value="all">All</option>
+                <option value="notThreatened">Not Threatened</option>
+                <option value="naturallyUncommon">Naturally Uncommon</option>
+                <option value="relict">Relict</option>
+                <option value="recovering">Recovering</option>
+                <option value="declining">Declining</option>
+                <option value="nationallyIncreasing">
+                  Nationally Increasing
+                </option>
+                <option value="nationallyVulnerable">
+                  Nationally Vulnerable
+                </option>
+                <option value="nationallyEndangered">
+                  Nationally Endangered
+                </option>
+                <option value="nationallyCritical">Nationally Critical</option>
+                <option value="extinct">Extinct</option>
+                <option value="dataDeficient">Data Deficient</option></select
+              ><br /><br />
+              <label for="sort-by">Sort By</label>
+              <select name="sort-by" id="sort-by" class="search-fields">
+                <option value="lightestToHeaviest">
+                  Lightest to heaviest
+                </option></select
+              ><br /><br />
+              <button
+                id="filterbutton"
+                form="birdfilter"
+                type="button"
+                class="search-fields"
+              >
+                FILTER RESULTS
+              </button>
+            </fieldset>
+          </form>
+        </div>
       </section>
+      <section id="grid"></section>
     </main>
     <footer>
       <p>
