@@ -31,47 +31,49 @@
         <div class="filter-container">
           <form id="birdfilter">
             <fieldset>
-              <legend>Filter Birds</legend>
+              <legend><h2>Filter Birds</h2></legend>
               <label for="searchbar">Search</label>
               <input
                 type="text"
                 id="searchbar"
                 name="searchbar"
                 class="search-fields"
-              /><br /><br />
+              />
               <label for="conservation-status">Conservation Status</label>
               <select
                 name="conservation-status"
                 id="conservation-status"
                 class="search-fields"
               >
-                <option value="all">All</option>
-                <option value="notThreatened">Not Threatened</option>
-                <option value="naturallyUncommon">Naturally Uncommon</option>
-                <option value="relict">Relict</option>
-                <option value="recovering">Recovering</option>
-                <option value="declining">Declining</option>
-                <option value="nationallyIncreasing">
+                <option value="All">All</option>
+                <option value="Not Threatened">Not Threatened</option>
+                <option value="Naturally Uncommon">Naturally Uncommon</option>
+                <option value="Relict">Relict</option>
+                <option value="Recovering">Recovering</option>
+                <option value="Declining">Declining</option>
+                <option value="Nationally Increasing">
                   Nationally Increasing
                 </option>
-                <option value="nationallyVulnerable">
+                <option value="Nationally Vulnerable">
                   Nationally Vulnerable
                 </option>
-                <option value="nationallyEndangered">
+                <option value="Nationally Endangered">
                   Nationally Endangered
                 </option>
-                <option value="nationallyCritical">Nationally Critical</option>
-                <option value="extinct">Extinct</option>
-                <option value="dataDeficient">Data Deficient</option></select
-              ><br /><br />
+                <option value="Nationally Critical">Nationally Critical</option>
+                <option value="Extinct">Extinct</option>
+                <option value="Data Deficient">Data Deficient</option>
+              </select>
               <label for="sort-by">Sort By</label>
               <select name="sort-by" id="sort-by" class="search-fields">
-                <option value="lightestToHeaviest">
-                  Lightest to heaviest
-                </option></select
-              ><br /><br />
+                <option value="none">None</option>
+                <option value="lightestToHeaviest">Lightest to Heaviest</option>
+                <option value="heaviestToLightest">Heaviest to Lightest</option>
+                <option value="longestToShortest">Longest to Shortest</option>
+                <option value="shortestToLongest">Shortest to Longest</option>
+              </select>
               <button
-                id="filterbutton"
+                id="filter-button"
                 form="birdfilter"
                 type="button"
                 class="search-fields"
@@ -81,8 +83,57 @@
             </fieldset>
           </form>
         </div>
+
+        <div class="statusLegendContainer">
+          <ul>
+            <li>
+              <span class="list-status-colour Threatened"></span>
+              <span class="status-key">Not Threatened </span>
+            </li>
+            <li>
+              <span class="list-status-colour Uncommon"></span>
+              <span class="status-key">Naturally Uncommon</span>
+            </li>
+            <li>
+              <span class="list-status-colour Relict"></span>
+              <span class="status-key">Relict</span>
+            </li>
+            <li>
+              <span class="list-status-colour Recovering"></span>
+              <span class="status-key">Recovering</span>
+            </li>
+            <li>
+              <span class="list-status-colour Declining"></span>
+              <span class="status-key">Declining</span>
+            </li>
+            <li>
+              <span class="list-status-colour Increasing"></span>
+              <span class="status-key">Nationally Increasing</span>
+            </li>
+            <li>
+              <span class="list-status-colour Vulnerable"></span>
+              <span class="status-key">Nationally Vulnerable</span>
+            </li>
+            <li>
+              <span class="list-status-colour Endangered"></span>
+              <span class="status-key">Nationally Endangered</span>
+            </li>
+            <li>
+              <span class="list-status-colour Critical"></span>
+              <span class="status-key">Nationally Critical</span>
+            </li>
+            <li>
+              <span class="list-status-colour Extinct"></span>
+              <span class="status-key">Extinct</span>
+            </li>
+            <li>
+              <span class="list-status-colour Deficient"></span>
+              <span class="status-key">Data Deficient</span>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section id="grid"></section>
+      <div id="grid"></div>
     </main>
     <footer>
       <p>

@@ -3,6 +3,8 @@
 const birdDataURL = "data/nzbird.json";
 const cardGrid = document.getElementById("grid");
 
+const cardArray = [];
+
 fetch(birdDataURL)
   .then((response) => response.json())
   .then((data) => createBirds(data))
@@ -10,23 +12,25 @@ fetch(birdDataURL)
 
 function createBirds(birdArray) {
   for (const bird of birdArray) {
-    let status = bird.status.split(" ");
+    const status = bird.status.split(" ");
 
-    const birdCard = ` <article class="bird-card">
-    <section class="bird-image-container">
+    const birdID = bird.scientific_name.replaceAll(" ", "");
+
+    const birdCard = ` <article class="bird-card" id="${birdID}">
+    <div class="bird-image-container">
       <img
         class="bird-image"
         src=${bird.photo.source}
         alt="picture of a ${bird.primary_name}"
       />
-      <span class="bird-title"
-        ><h2>${bird.primary_name}</h2>
+      <div class="bird-title"> <h2>${bird.primary_name}</h2>
         <p class="credit">${bird.photo.credit}</p>
-      </span>
-      <div class="danger-indicator hideobject ${
-        status[status.length - 1]
-      }"></div>
-    </section>
+      </div>
+      <div role="img" alt="Conservation Status: ${
+        bird.status
+      }" class="danger-indicator ${status[status.length - 1]}"></div>
+      <span class="gradient"></span>
+    </div>
     <section class="bird-details-container">
       <h3 class="english-name">${bird.english_name}</h3>
       <dl>
@@ -48,6 +52,9 @@ function createBirds(birdArray) {
 `;
 
     cardGrid.insertAdjacentHTML("beforeend", birdCard);
+
+    bird.element = document.getElementById(`${birdID}`);
+    cardArray.push(bird);
   }
 }
 
@@ -58,3 +65,85 @@ searchButton.addEventListener("click", function () {
   searchArea.classList.toggle("hide");
   searchArea.classList.toggle("animate");
 });
+
+const searchTextField = document.getElementById("searchbar");
+const statusFilter = document.getElementById("conservation-status");
+const sortByFilter = document.getElementById("sort-by");
+
+const filterButton = document.getElementById("filter-button");
+
+const gridArea = document.getElementById("grid");
+
+filterButton.addEventListener("click", function () {
+  for (const birdCard of cardArray) {
+    const searchTextEqual = Object.values(birdCard).some((value) =>
+      value
+        .toString()
+        .normalize("NFKC")
+        .toLowerCase()
+        .includes(searchTextField.value.normalize("NFKC").toLowerCase())
+    );
+
+    const statusEqual =
+      statusFilter.value === "All" || birdCard.status === statusFilter.value;
+
+    birdCard.element.classList.toggle(
+      "hideImportant",
+      !searchTextEqual || !statusEqual
+    );
+  }
+
+
+
+  switch (sortByFilter.value) {
+    case "none":
+      gridArea.append(...[...cardArray].map((element) => element.element));
+      break;
+    case "lightestToHeaviest":
+      gridArea.append(
+        ...[...cardArray]
+          .sort((a, b) => a.size.weight.value - b.size.weight.value)
+          .map((element) => element.element)
+      );
+      break;
+
+    case "heaviestToLightest":
+      gridArea.append(
+        ...[...cardArray]
+          .sort((a, b) => b.size.weight.value - a.size.weight.value)
+          .map((element) => element.element)
+      );
+      break;
+
+    case "longestToShortest":
+      gridArea.append(
+        ...[...cardArray]
+          .sort((a, b) => b.size.length.value - a.size.length.value)
+          .map((element) => element.element)
+      );
+      break;
+
+    case "shortestToLongest":
+      gridArea.append(
+        ...[...cardArray]
+          .sort((a, b) => a.size.length.value - b.size.length.value)
+          .map((element) => element.element)
+      );
+      break;
+  }
+});
+
+
+const body = document.querySelector("body");
+body.addEventListener("mousedown",function(){
+
+ body.classList.toggle("cursorOveride",true);
+
+})
+
+
+body.addEventListener("mouseup",function(){
+
+  body.classList.toggle("cursorOveride",false);
+ 
+ })

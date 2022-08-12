@@ -1,9 +1,9 @@
 :root {
   /* Design Colour Palette */
-  --primary: #f0ebe3;
-  --secondary: #7d9d9c;
-  --accent-one: white;
-  --accent-two: #73a9ad;
+  --primary: #white;
+  --secondary: #CDF0EA;
+  --accent-one: #2C3333;
+  --accent-two: #2C3333;
   --text: black;
 
   /* Conservation status colour scheme*/
@@ -20,6 +20,7 @@
   --data-deficient: black;
 }
 
+
 *,
 *::before,
 *::after {
@@ -34,13 +35,26 @@ html,
 body {
   background-color: var(--primary);
   display: flex;
-  width: 100%;
-  height: 100vh;
   flex-direction: column;
+  min-height: 100vh;
+  cursor: url('kiwi.png'), auto;	
+  overflow: hidden;
+}
+
+.cursorOveride{
+  cursor: url('lazer.png'), auto !important;
+}
+
+body {
+  min-height: 100vh;
 }
 
 header {
   background-color: var(--secondary);
+  color: rgb(0, 0, 0);
+  font-size: 1.4em;
+  font-weight: 700;
+  height: 5em;
   text-align: center;
   box-shadow: 1px -1em 4em #333;
 }
@@ -52,22 +66,35 @@ header h1 {
 main {
   display: flex;
   flex: auto;
+  height: 0;
 }
 
 footer {
   background-color: var(--secondary);
   text-align: center;
-  margin-top: 4em;
 }
 
 @keyframes bubble {
   from {
     width: 10%;
+    height: 30px;
+    overflow: hidden;
   }
   to {
     width: 70%;
+    height: 39em;
+    overflow: hidden;
   }
 }
+
+.hide {
+  display: none;
+}
+
+.hideImportant {
+  display: none !important;
+}
+
 .animate {
   animation-name: bubble;
   animation-duration: 0.3s;
@@ -75,6 +102,7 @@ footer {
 
 #search-area {
   position: fixed;
+  height: 39em;
   width: 70%;
   z-index: 100;
   background-color: white;
@@ -84,7 +112,7 @@ footer {
   box-shadow: 0 0 1em #333;
   bottom: 2.7em;
   left: 2.6em;
-  overflow: hidden;
+  
 }
 
 #search-button {
@@ -117,10 +145,6 @@ form {
   font-size: 48px;
 }
 
-.hide {
-  display: none;
-}
-
 fieldset {
   display: flex;
   flex-direction: column;
@@ -135,28 +159,24 @@ fieldset > legend {
   margin-bottom: 1em;
 }
 
+fieldset > input {
+  margin-bottom: 0.3em;
+}
+
+fieldset > select {
+  margin-bottom: 0.3em;
+}
 fieldset > label {
   margin-bottom: 0.5em;
+}
+
+#filter-button {
+  margin-top: 1em;
 }
 
 .search-fields {
   height: 2em;
   width: 13em;
-}
-
-@media only screen and (min-width: 811px) {
-  #search-area {
-    all: unset;
-    display: block;
-    width: 10em;
-    margin-top: 10em;
-    padding-right: 5em;
-    padding-left: 2em;
-  }
-
-  #search-button {
-    display: none;
-  }
 }
 
 #grid {
@@ -167,10 +187,14 @@ fieldset > label {
   grid-template-rows: auto;
   padding-top: 4em;
   place-items: center;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: rgb(250, 248, 247);
+  padding-bottom: 2em;
 }
 
 .bird-card {
-  background-color: var(--accent-one);
+  background-color: white;
   width: 20rem;
   height: 30rem;
   border-radius: 1rem;
@@ -179,7 +203,7 @@ fieldset > label {
   display: flex;
   flex-direction: column;
   transition: 0.2;
-  box-shadow: 0 0 1em #333;
+  box-shadow: 0 0  0.9em 0.1em rgb(201, 199, 199);
 }
 
 .bird-card:hover {
@@ -194,11 +218,28 @@ fieldset > label {
   position: relative;
 }
 
+.gradient {
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+  width: 100%;
+  height: 220px;
+  top: 0;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 50%
+  );
+}
+
 .bird-title {
   position: absolute;
   top: 10em;
   margin-left: 1em;
   color: white;
+  z-index: 2;
 }
 
 .credit {
@@ -212,30 +253,37 @@ fieldset > label {
   font-weight: 700;
 }
 
+.bird-details-container {
+  width: 100%;
+ 
+}
+
 dl {
   list-style: none;
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 1em;
   padding-top: 1em;
-  padding-right: 3em;
-  padding-left: 3em;
-  margin: 0 auto;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
+
 dd {
-  float: right;
-  clear: right;
+  display: inline-block;
 }
 
 dt {
-  text-align: right;
+  display: inline;
+  text-align: left;
   font-weight: bold;
-  clear: left;
-  float: left;
 }
 
 dt,
 dd {
   font-size: small;
-  margin-bottom: 1em;
 }
+
 .danger-indicator {
   background-color: white;
   width: 3em;
@@ -245,48 +293,120 @@ dd {
   right: 1em;
   border-radius: 50%;
   border: 2px solid white;
+  z-index: 3;
 }
 
 .Threatened {
   background-color: var(--not-threatened);
+  color: var(--not-threatened);
 }
 
 .Uncommon {
   background-color: var(--naturally-uncommon);
+  color: var(--naturally-uncommon);
 }
 
 .Relict {
   background-color: var(--relict);
+  color: var(--relict);
 }
 
 .Recovering {
   background-color: var(--recovering);
+  color: var(--recovering);
 }
 
 .Declining {
   background-color: var(--declining);
+  color: var(--declining);
 }
 
 .Increasing {
   background-color: var(--nationally-increasing);
+  color: var(--nationally-increasing);
 }
 
 .Vulnerable {
   background-color: var(--nationally-vulnerable);
+  color: var(--nationally-vulnerable);
 }
 
 .Endangered {
   background-color: var(--nationally-endangered);
+  color: var(--nationally-endangered);
 }
 
 .Critical {
   background-color: var(--nationally-critical);
+  color: var(--nationally-critical);
 }
 
 .Extinct {
   background-color: var(--extinct);
+  color: var(--extinct);
 }
 
 .Deficient {
   background-color: var(--data-deficient);
+}
+
+.statusLegendContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+  padding-bottom: 1em;
+  font-size: min(1em, 3.3vw);
+}
+
+.list-status-colour {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: 0.1em 0.3em;
+}
+
+li {
+  padding-bottom: 0.3em;
+}
+
+footer > p {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+
+
+@media only screen and (min-width: 811px) {
+  #search-area {
+    all: unset;
+    display: block;
+    width: 10em;
+    padding-top: 4em;
+    padding-right: 5em;
+    padding-left: 2em;
+    background-color: white;
+  }
+
+  #search-button {
+    display: none;
+  }
+
+  .statusLegendContainer {
+    all: unset;
+    display: block;
+    width: 20em;
+  }
+
+  ul {
+    all: unset;
+    list-style-type: none;
+  }
 }
