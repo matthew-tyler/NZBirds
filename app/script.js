@@ -26,9 +26,7 @@ function createBirds(birdArray) {
       <div class="bird-title"> <h2>${bird.primary_name}</h2>
         <p class="credit">${bird.photo.credit}</p>
       </div>
-      <div role="img" alt="Conservation Status: ${
-        bird.status
-      }" class="danger-indicator ${status[status.length - 1]}"></div>
+      <div role="img" aria-label="Conservation Status: ${bird.status}" class="danger-indicator ${status[status.length - 1]}"></div>
       <span class="gradient"></span>
     </div>
     <section class="bird-details-container">
