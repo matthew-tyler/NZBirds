@@ -1,0 +1,1968 @@
+[
+    {
+        "primary_name": "Hihi",
+        "english_name": "Stitchbird",
+        "scientific_name": "Notiomystis cincta",
+        "order": "Passeriformes",
+        "family": "Notiomystidae",
+        "other_names": [
+            "Stitchbird"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Tony Whitehead",
+            "source": "data/images/stitchbird-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 18.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 33.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Hoiho",
+        "english_name": "Yellow-eyed penguin",
+        "scientific_name": "Megadyptes antipodes",
+        "order": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "other_names": [
+            "Yellow-eyed penguin",
+            "hoihoi",
+            "yellow-crowned penguin",
+            "yellow eyed penguin",
+            "yelloweyed penguin",
+            "Waitaha penguin",
+            "Richdale's penguin"
+        ],
+        "status": "Nationally Endangered",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/yellow-eyed-penguin-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 65.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 5000.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kakaruai",
+        "english_name": "South Island robin",
+        "scientific_name": "Petroica australis",
+        "order": "Passeriformes",
+        "family": "Petroicidae",
+        "other_names": [
+            "South Island robin",
+            "New Zealand robin",
+            "kakaruwai",
+            "kakariwai",
+            "toutouwai",
+            "bush robin"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Sabine Bernert",
+            "source": "data/images/south-island-robin-7.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 18.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 35.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kak\u012b",
+        "english_name": "Black stilt",
+        "scientific_name": "Himantopus novaezelandiae",
+        "order": "Charadriiformes",
+        "family": "Recurvirostridae",
+        "other_names": [
+            "Black stilt",
+            "kaki"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/black-stilt-4.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 40.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 220.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Karure",
+        "english_name": "Black robin",
+        "scientific_name": "Petroica traversi",
+        "order": "Passeriformes",
+        "family": "Petroicidae",
+        "other_names": [
+            "Black robin",
+            "Chatham Island black robin",
+            "Chatham Island robin",
+            "kakaruia"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "David Boyle",
+            "source": "data/images/black-robin-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 15.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 23.5,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kawau o Motu Maha",
+        "english_name": "Auckland Island Shag",
+        "scientific_name": "Leucocarbo colensoi",
+        "order": "Suliformes",
+        "family": "Phalacrocoracidae",
+        "other_names": [
+            "Auckland Island shag"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "DOC John Kendrick",
+            "source": "data/images/auckland-island-shag-14.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 63.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2000.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kawau o Rangihaute",
+        "english_name": "Pitt Island shag",
+        "scientific_name": "Phalacrocorax featherstoni",
+        "order": "Suliformes",
+        "family": "Phalacrocoracidae",
+        "other_names": [
+            "Pitt Island shag",
+            "Pitt Island cormorant",
+            "Pitt shag"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Mark Fraser",
+            "source": "data/images/pitt-island-shag-6.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 63.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 1000.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kawau p\u0101teketeke",
+        "english_name": "King shag",
+        "scientific_name": "Leucocarbo carunculatus",
+        "order": "Suliformes",
+        "family": "Phalacrocoracidae",
+        "other_names": [
+            "New Zealand king shag",
+            "king shag",
+            "kawau",
+            "New Zealand king cormorant",
+            "rough-faced shag",
+            "carunculated shag",
+            "Marlborough Sounds shag",
+            "Cook Strait cormorant",
+            "kawau pateketeke"
+        ],
+        "status": "Nationally Endangered",
+        "photo": {
+            "credit": "Mennobart Van Eerden",
+            "source": "data/images/king-shag-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 76.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2500.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kawau tikitiki",
+        "english_name": "Spotted shag",
+        "scientific_name": "Phalacrocorax punctatus",
+        "order": "Suliformes",
+        "family": "Phalacrocoracidae",
+        "other_names": [
+            "parekareka",
+            "blue shag"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Steve Attwood",
+            "source": "data/images/spotted-shag-12.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 69.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 950.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kea",
+        "english_name": "Kea",
+        "scientific_name": "Nestor notabilis",
+        "order": "Psittaciformes",
+        "family": "Strigopidae",
+        "other_names": [
+            "mountain parrot",
+            "New Zealand mountain parrot"
+        ],
+        "status": "Nationally Endangered",
+        "photo": {
+            "credit": "Mark Fraser",
+            "source": "data/images/kea-13.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 46.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 900.0,
+                "units": "1100"
+            }
+        }
+    },
+    {
+        "primary_name": "Kerer\u016b",
+        "english_name": "New Zealand pigeon",
+        "scientific_name": "Hemiphaga novaeseelandiae",
+        "order": "Columbiformes",
+        "family": "Columbidae",
+        "other_names": [
+            "New Zealand pigeon",
+            "kereru",
+            "kukupa",
+            "kuku",
+            "wood pigeon",
+            "native pigeon",
+            "kokopa"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Ormond Torr",
+            "source": "data/images/new-zealand-pigeon-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 50.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 630.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kiwi pukupuku",
+        "english_name": "Little spotted kiwi",
+        "scientific_name": "Apteryx owenii",
+        "order": "Apterygiformes",
+        "family": "Apterygidae",
+        "other_names": [
+            "Little spotted kiwi"
+        ],
+        "status": "Nationally Increasing",
+        "photo": {
+            "credit": "Andrew Digby",
+            "source": "data/images/little-spotted-kiwi-9.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 30.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 1250.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Kiwi-nui",
+        "english_name": "North Island brown kiwi",
+        "scientific_name": "Apteryx mantelli",
+        "order": "Apterygiformes",
+        "family": "Apterygidae",
+        "other_names": [
+            "North Island brown kiwi"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "DOC Rod Morris",
+            "source": "data/images/north-island-brown-kiwi-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 40.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2350.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Koekoe\u0101",
+        "english_name": "Long-tailed cuckoo",
+        "scientific_name": "Eudynamys taitensis",
+        "order": "Cuculiformes",
+        "family": "Cuculidae",
+        "other_names": [
+            "Long-tailed cuckoo",
+            "koekoea",
+            "kohoperoa",
+            "long-tailed koel",
+            "longtailed cuckoo",
+            "long tailed cuckoo"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Adam Clarke",
+            "source": "data/images/long-tailed-cuckoo-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 40.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 125.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Korimako",
+        "english_name": "Bellbird",
+        "scientific_name": "Anthornis melanura",
+        "order": "Passeriformes",
+        "family": "Meliphagidae",
+        "other_names": [
+            "Bellbird",
+            "New Zealand bellbird",
+            "makomako",
+            "mockie",
+            "bell bird"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Neil Fitzgerald",
+            "source": "data/images/bellbird-4.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 20.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 30.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Koror\u0101",
+        "english_name": "Little Penguin",
+        "scientific_name": "Eudyptula minor",
+        "order": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "other_names": [
+            "Little penguin",
+            "little blue penguin",
+            "blue penguin",
+            "fairy penguin",
+            "white-flippered penguin",
+            "korora"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/little-penguin-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 33.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 1000.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u0101k\u0101",
+        "english_name": "Kaka",
+        "scientific_name": "Nestor meridionalis",
+        "order": "Psittaciformes",
+        "family": "Strigopidae",
+        "other_names": [
+            "Kaka",
+            "bush parrot",
+            "brown parrot",
+            "kawkaw"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Judi Lapsley Miller",
+            "source": "data/images/kaka-30.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 41.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 370.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u0101k\u0101p\u014d",
+        "english_name": "Kakapo",
+        "scientific_name": "Strigops habroptila",
+        "order": "Psittaciformes",
+        "family": "Strigopidae",
+        "other_names": [
+            "Kakapo",
+            "owl-parrot",
+            "tarepo",
+            "tarapo",
+            "night parrot"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "Colin Miskelly",
+            "source": "data/images/kakapo-3.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 61.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2500,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u0101k\u0101riki",
+        "english_name": "Yellow-crowned parakeet",
+        "scientific_name": "Cyanoramphus auriceps",
+        "order": "Psittaciformes",
+        "family": "Psittaculidae",
+        "other_names": [
+            "Yellow-crowned parakeet",
+            "kakariki",
+            "yellow crowned parakeet",
+            "yellowcrowned parakeet"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Peter Reese",
+            "source": "data/images/yellow-crowned-parakeet-11.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 25.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 46.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u0101k\u0101riki karaka",
+        "english_name": "Orange-fronted parakeet",
+        "scientific_name": "Cyanoramphus malherbi",
+        "order": "Psittaciformes",
+        "family": "Psittaculidae",
+        "other_names": [
+            "Orange-fronted parakeet",
+            "Malherbe's parakeet",
+            "k\u0101k\u0101riki",
+            "kakariki",
+            "kakariki karaka",
+            "orangefronted parakeet",
+            "orange fronted parakeet"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "John Kearvell",
+            "source": "data/images/orange-fronted-parakeet-6.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 20.5,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 41.0,
+                "units": "52"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u0101rearea",
+        "english_name": "New Zealand falcon",
+        "scientific_name": "Falco novaeseelandiae",
+        "order": "Falconiformes",
+        "family": "Falconidae",
+        "other_names": [
+            "New Zealand falcon",
+            "bush hawk",
+            "sparrow hawk",
+            "bush falcon",
+            "southern falcon",
+            "eastern falcon",
+            "quail hawk",
+            "karearea"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/new-zealand-falcon-9.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 45.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 426.0,
+                "units": "340"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u014dkako",
+        "english_name": "North Island Kokako",
+        "scientific_name": "Callaeas wilsoni",
+        "order": "Passeriformes",
+        "family": "Callaeidae",
+        "other_names": [
+            "North Island kokako",
+            "blue-wattled crow",
+            "hokako",
+            "honga",
+            "onga",
+            "honge",
+            "onge",
+            "pakara",
+            "werewere"
+        ],
+        "status": "Nationally Increasing",
+        "photo": {
+            "credit": "Banded dotterel",
+            "source": "data/images/north-island-kokako-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 38.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 225.5,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u014dk\u0101",
+        "english_name": "South Island kokako",
+        "scientific_name": "Callaeas cinerea",
+        "order": "Passeriformes",
+        "family": "Callaeidae",
+        "other_names": [
+            "South Island kokako",
+            "orange-wattled crow",
+            "cinereous wattlebird",
+            "koka"
+        ],
+        "status": "Data Deficient",
+        "photo": {
+            "credit": "Te_Papa George Edward",
+            "source": "data/images/south-island-kokako-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 38.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 224.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u014dtare",
+        "english_name": "Sacred Kingfisher",
+        "scientific_name": "Todiramphus sanctus",
+        "order": "Coraciiformes",
+        "family": "Halcyonidae",
+        "other_names": [
+            "Sacred kingfisher",
+            "New Zealand kingfisher",
+            "kotare"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Ormond Torr",
+            "source": "data/images/sacred-kingfisher-4.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 23.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 55.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "K\u014dtuku",
+        "english_name": "White heron",
+        "scientific_name": "Ardea alba Linnaeus",
+        "order": "Pelecaniformes",
+        "family": "Ardeidae",
+        "other_names": [
+            "White heron",
+            "great egret",
+            "great white heron",
+            "kotuku",
+            "great white egret",
+            "eastern great egret"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "Adam Clarke",
+            "source": "data/images/white-heron-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 93.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 950.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Matapo",
+        "english_name": "Stewart Island shag",
+        "scientific_name": "Leucocarbo chalconotus",
+        "order": "Suliformes",
+        "family": "Phalacrocoracidae",
+        "other_names": [
+            "Otago shag",
+            "bronze shag",
+            "kawau",
+            "Stewart Island shag",
+            "Gray\u2019s shag"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Philip Griffin",
+            "source": "data/images/stewart-island-shag-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 68.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2500.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Matuku moana",
+        "english_name": "White-faced heron",
+        "scientific_name": "Egretta novaehollandiae",
+        "order": "Pelecaniformes",
+        "family": "Ardeidae",
+        "other_names": [
+            "White-faced heron",
+            "matuku",
+            "blue heron",
+            "blue crane",
+            "whitefaced heron",
+            "white faced heron"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Adam Clarke",
+            "source": "data/images/white-faced-heron-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 67.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 550.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Miromiro",
+        "english_name": "Tomtit",
+        "scientific_name": "Petroica macrocephala",
+        "order": "Passeriformes",
+        "family": "Petroicidae",
+        "other_names": [
+            "Tomtit",
+            "New Zealand tomtit",
+            "pied tit",
+            "yellow-breasted tit",
+            "black tit",
+            "ngirungiru",
+            "pied tomtit",
+            "yellow-breasted tomtit",
+            "black tomtit",
+            "piropiro",
+            "maui-potiki"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Albert Aanensen",
+            "source": "data/images/tomtit-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 13.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 11.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Mohua",
+        "english_name": "Yellowhead",
+        "scientific_name": "Mohoua ochrocephala",
+        "order": "Passeriformes",
+        "family": "Mohouidae",
+        "other_names": [
+            "Yellowhead",
+            "bush canary",
+            "mohoua"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Glenda Rees",
+            "source": "data/images/yellowhead-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 15.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 28.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "M\u0101t\u0101t\u0101",
+        "english_name": "Fernbird",
+        "scientific_name": "Poodytes punctatus",
+        "order": "Passeriformes",
+        "family": "Locustellidae",
+        "other_names": [
+            "Fernbird",
+            "m\u0101t\u0101",
+            "koro\u0101tito",
+            "matata",
+            "koroatito",
+            "utick"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Adam Clarke",
+            "source": "data/images/fernbird-6.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 18.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 35.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Ngutu pare",
+        "english_name": "Wrybill",
+        "scientific_name": "Anarhynchus frontalis",
+        "order": "Charadriiformes",
+        "family": "Charadriidae",
+        "other_names": [
+            "Wrybill",
+            "wrybilled plover",
+            "ngutuparore",
+            "wrybill plover",
+            "crook-bill"
+        ],
+        "status": "Nationally Increasing",
+        "photo": {
+            "credit": "Tony Whitehead",
+            "source": "data/images/wrybill-11.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 20.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 55.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Papua",
+        "english_name": "Chatham Island shag",
+        "scientific_name": "Leucocarbo onslowi",
+        "order": "Suliformes",
+        "family": "Phalacrocoracidae",
+        "other_names": [
+            "Chatham Island shag",
+            "Chatham Island cormorant",
+            "Chatham shag"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Alan Tennyson",
+            "source": "data/images/chatham-island-shag-9.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 63.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2250.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u0101pango",
+        "english_name": "New Zealand scaup",
+        "scientific_name": "Aythya novaeseelandiae",
+        "order": "Anseriformes",
+        "family": "Anatidae",
+        "other_names": [
+            "New Zealand scaup",
+            "black teal",
+            "papango",
+            "matapouri",
+            "titiporangi",
+            "raipo"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Tony Whitehead",
+            "source": "data/images/new-zealand-scaup-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 40.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 652.5,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u0101teke",
+        "english_name": "Brown teal",
+        "scientific_name": "Anas chlorotis",
+        "order": "Anseriformes",
+        "family": "Anatidae",
+        "other_names": [
+            "Brown teal",
+            "brown duck",
+            "pateke"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Les Feasey",
+            "source": "data/images/brown-teal-3.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 48.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 615.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u012bhoihoi",
+        "english_name": "New Zealand Pipit",
+        "scientific_name": "Anthus novaeseelandiae",
+        "order": "Passeriformes",
+        "family": "Motacillidae",
+        "other_names": [
+            "New Zealand pipit",
+            "pipit",
+            "pihoihoi",
+            "Richard's pipit"
+        ],
+        "status": "Naturally Uncommon",
+        "photo": {
+            "credit": "Duncan Watson",
+            "source": "data/images/new-zealand-pipit-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 18.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 35.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u012bpipi",
+        "english_name": "Brown creeper",
+        "scientific_name": "Mohoua novaeseelandiae",
+        "order": "Passeriformes",
+        "family": "Mohouidae",
+        "other_names": [
+            "Brown creeper",
+            "New Zealand creeper",
+            "pipipi",
+            "New Zealand titmouse"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/brown-creeper-10.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 13.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 12.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u012bwakawaka",
+        "english_name": "New Zealand fantail",
+        "scientific_name": "Rhipidura fuliginosa",
+        "order": "Passeriformes",
+        "family": "Rhipiduridae",
+        "other_names": [
+            "fantail",
+            "piwakawaka",
+            "grey fantail",
+            "pied fantail",
+            "black fantail",
+            "t\u012brairaka, tirairaka"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Cheryl Marriner",
+            "source": "data/images/fantail-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 16.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 8.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u012bwauwau",
+        "english_name": "Rock wren",
+        "scientific_name": "Xenicus gilviventris",
+        "order": "Passeriformes",
+        "family": "Acanthisittidae",
+        "other_names": [
+            "Rock wren",
+            "New Zealand rock wren",
+            "piwauwau",
+            "m\u0101tuitui",
+            "matuitui",
+            "South Island wren",
+            "tuke"
+        ],
+        "status": "Nationally Endangered",
+        "photo": {
+            "credit": "Suzi Phillips",
+            "source": "data/images/rock-wren-3.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 10.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 18.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u014dpokotea",
+        "english_name": "Whitehead",
+        "scientific_name": "Mohoua albicilla",
+        "order": "Passeriformes",
+        "family": "Mohouidae",
+        "other_names": [
+            "Whitehead",
+            "p\u014dpokatea",
+            "popokatea",
+            "popokotea"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Jared Le Roy",
+            "source": "data/images/whitehead-4.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 15.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 16.5,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u016bkeko",
+        "english_name": "Pukeko",
+        "scientific_name": "Porphyrio melanotus",
+        "order": "Gruiformes",
+        "family": "Rallidae",
+        "other_names": [
+            "Pukeko",
+            "purple swamphen",
+            "purple gallinule",
+            "south-west Pacific swamphen",
+            "Australasian swamphen",
+            "pook"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Peter Reese",
+            "source": "data/images/pukeko-8.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 44.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 985.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "P\u016btangitangi",
+        "english_name": "Paradise shelduck",
+        "scientific_name": "Tadorna variegata",
+        "order": "Anseriformes",
+        "family": "Anatidae",
+        "other_names": [
+            "Paradise shelduck",
+            "paradise duck",
+            "putangitangi",
+            "pari",
+            "parry",
+            "parrie"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Peter Reese",
+            "source": "data/images/paradise-shelduck-12.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 66.5,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 1550.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Riroriro",
+        "english_name": "Grey warbler",
+        "scientific_name": "Gerygone igata",
+        "order": "Passeriformes",
+        "family": "Acanthizidae",
+        "other_names": [
+            "Grey warbler",
+            "Riroriro",
+            "rainbird",
+            "teetotum",
+            "gray warbler",
+            "New Zealand gerygone",
+            "grey gerygone"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/grey-warbler-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 11.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 6.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Roroa",
+        "english_name": "Great spotted kiwi",
+        "scientific_name": "Apteryx maxima",
+        "order": "Apterygiformes",
+        "family": "Apterygidae",
+        "other_names": [
+            "Great spotted kiwi",
+            "roa"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "DOC Rod Morris",
+            "source": "data/images/great-spotted-kiwi-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 45.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2600.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Rowi",
+        "english_name": "Okarito brown kiwi",
+        "scientific_name": "Apteryx rowi",
+        "order": "Apterygiformes",
+        "family": "Apterygidae",
+        "other_names": [
+            "Okarito brown kiwi",
+            "Okarito kiwi"
+        ],
+        "status": "Nationally Endangered",
+        "photo": {
+            "credit": "Chrissy Wicks",
+            "source": "data/images/okarito-brown-kiwi-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 40.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2250.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Ruru",
+        "english_name": "Morepork",
+        "scientific_name": "Ninox novaeseelandiae",
+        "order": "Strigiformes",
+        "family": "Strigidae",
+        "other_names": [
+            "Morepork",
+            "ruru",
+            "boobook",
+            "New Zealand owl"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Duncan Watson",
+            "source": "data/images/morepork-3.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 29.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 175.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Takah\u0113",
+        "english_name": "Takahe",
+        "scientific_name": "Porphyrio hochstetteri",
+        "order": "Gruiformes",
+        "family": "Rallidae",
+        "other_names": [
+            "South Island takahe",
+            "notornis"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Cheryl Marriner",
+            "source": "data/images/takahe-31.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 50.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2750.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tarapirohe",
+        "english_name": "Black-fronted tern",
+        "scientific_name": "Chlidonias albostriatus",
+        "order": "Charadriiformes",
+        "family": "Laridae",
+        "other_names": [
+            "Black-fronted tern",
+            "tarapiroe",
+            "blackfronted tern",
+            "black fronted tern"
+        ],
+        "status": "Nationally Endangered",
+        "photo": {
+            "credit": "Steve Attwood",
+            "source": "data/images/black-fronted-tern-29.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 28.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 95.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tar\u0101puka",
+        "english_name": "Black-billed gull",
+        "scientific_name": "Chroicocephalus bulleri",
+        "order": "Charadriiformes",
+        "family": "Laridae",
+        "other_names": [
+            "Black-billed gull",
+            "Buller's gull",
+            "tarapuka",
+            "seagull",
+            "blackbilled gull",
+            "black billed gull"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "John Flux",
+            "source": "data/images/black-billed-gull-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 36.5,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 230.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tar\u0101punga",
+        "english_name": "Red-billed gull",
+        "scientific_name": "Chroicocephalus novaehollandiae",
+        "order": "Charadriiformes",
+        "family": "Laridae",
+        "other_names": [
+            "Red-billed Gull",
+            "silver gull",
+            "tarapunga",
+            "mackerel gull",
+            "Jackie (Chathams)",
+            "akiaki",
+            "seagull",
+            "redbilled gull",
+            "red billed gull"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Albert Aanensen",
+            "source": "data/images/red-billed-gull-25.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 37.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 280.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tauhou",
+        "english_name": "Silvereye",
+        "scientific_name": "Zosterops lateralis",
+        "order": "Passeriformes",
+        "family": "Zosteropidae",
+        "other_names": [
+            "Silvereye",
+            "waxeye",
+            "white-eye",
+            "blight-bird",
+            "silver-eye",
+            "wax-eye"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Tony Whitehead",
+            "source": "data/images/silvereye-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 12.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 13.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tawaki",
+        "english_name": "Fiordland crested penguin",
+        "scientific_name": "Eudyptes pachyrhynchus",
+        "order": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "other_names": [
+            "Fiordland crested penguin",
+            "Fiordland penguin",
+            "New Zealand crested penguin",
+            "pokotiwha",
+            "thick-billed penguin",
+            "Victoria penguin"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Douglas Gimesy",
+            "source": "data/images/fiordland-crested-penguin-25.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 60.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 4000.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tokoeka",
+        "english_name": "Southern brown kiwi",
+        "scientific_name": "Apteryx australis",
+        "order": "Apterygiformes",
+        "family": "Apterygidae",
+        "other_names": [
+            "Southern brown kiwi"
+        ],
+        "status": "Naturally Uncommon",
+        "photo": {
+            "credit": "DOC John Kendrick",
+            "source": "data/images/southern-brown-kiwi-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 45.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 2750.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Toroa",
+        "english_name": "Southern Royal Albatross",
+        "scientific_name": "Diomedea epomophora",
+        "order": "Procellariiformes",
+        "family": "Diomedeidae",
+        "other_names": [
+            "Southern royal albatross",
+            "royal albatross"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Alan Tennyson",
+            "source": "data/images/southern-royal-albatross-3.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 120.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 9000.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Toutouwai",
+        "english_name": "North Island robin",
+        "scientific_name": "Petroica longipes",
+        "order": "Passeriformes",
+        "family": "Petroicidae",
+        "other_names": [
+            "North Island robin",
+            "New Zealand robin",
+            "bush robin"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Duncan Watson",
+            "source": "data/images/north-island-robin-7.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 18.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 35.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tutukiwi",
+        "english_name": "Snares Island snipe",
+        "scientific_name": "Coenocorypha huegeli",
+        "order": "Charadriiformes",
+        "family": "Scolopacidae",
+        "other_names": [
+            "Snares Island snipe",
+            "tutukiwi",
+            "New Zealand snipe (collective name for several forms now recognised as full scientific_name)"
+        ],
+        "status": "Naturally Uncommon",
+        "photo": {
+            "credit": "DOC Rod Morris",
+            "source": "data/images/snares-island-snipe-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 22.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 109.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Tuturuatu",
+        "english_name": "Shore plover",
+        "scientific_name": "Thinornis novaeseelandiae",
+        "order": "Charadriiformes",
+        "family": "Charadriidae",
+        "other_names": [
+            "Shore plover",
+            "New Zealand shore plover",
+            "t\u016bturuatu",
+            "sand plover",
+            "New Zealand plover",
+            "shore dotterel"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "DOC Don Merton",
+            "source": "data/images/shore-plover-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 20.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 61.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u0113t\u0113 k\u0101k\u0101riki",
+        "english_name": "Auckland island teal",
+        "scientific_name": "Anas aucklandica",
+        "order": "Anseriformes",
+        "family": "Anatidae",
+        "other_names": [
+            "Auckland Island teal",
+            "Auckland teal",
+            "Auckland Island flightless duck",
+            "flightless teal"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Kate Bee",
+            "source": "data/images/auckland-island-teal-6.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 45.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 485.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u012beke",
+        "english_name": "North Island saddleback",
+        "scientific_name": "Philesturnus rufusater",
+        "order": "Passeriformes",
+        "family": "Callaeidae",
+        "other_names": [
+            "North Island saddleback",
+            "tieke",
+            "tiaki"
+        ],
+        "status": "Relict",
+        "photo": {
+            "credit": "Tony Whitehead",
+            "source": "data/images/north-island-saddleback-11.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 25.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 70.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u012beke",
+        "english_name": "South Island saddleback",
+        "scientific_name": "Philesturnus carunculatus",
+        "order": "Passeriformes",
+        "family": "Callaeidae",
+        "other_names": [
+            "South Island saddleback",
+            "tieke",
+            "jackbird"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Duncan Watson",
+            "source": "data/images/south-island-saddleback-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 25.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 75.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u012btitipounamu",
+        "english_name": "Rifleman",
+        "scientific_name": "Acanthisitta chloris",
+        "order": "Passeriformes",
+        "family": "Acanthisittidae",
+        "other_names": [
+            "Rifleman",
+            "tititipounamu",
+            "titipounamu"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Glenda Rees",
+            "source": "data/images/rifleman-13.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 8.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 6.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u014drea",
+        "english_name": "South Island pied oystercatcher",
+        "scientific_name": "Haematopus finschi",
+        "order": "Charadriiformes",
+        "family": "Haematopodidae",
+        "other_names": [
+            "South Island pied oystercatcher",
+            "New Zealand pied oystercatcher",
+            "Finsch's oystercatcher",
+            "torea",
+            "SIPO"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Craig McKenzie",
+            "source": "data/images/south-island-pied-oystercatcher-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 46.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 550.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u014drea pango",
+        "english_name": "Variable oystercatcher",
+        "scientific_name": "Haematopus unicolor",
+        "order": "Charadriiformes",
+        "family": "Haematopodidae",
+        "other_names": [
+            "Variable oystercatcher",
+            "black oystercatcher",
+            "torea pango",
+            "t\u014drea tai",
+            "torea tai",
+            "t\u014drea",
+            "torea",
+            "VOC"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Ormond Torr",
+            "source": "data/images/variable-oystercatcher-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 48.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 720.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u014drea tai",
+        "english_name": "Chatham Island oystercatcher",
+        "scientific_name": "Haematopus chathamensis",
+        "order": "Charadriiformes",
+        "family": "Haematopodidae",
+        "other_names": [
+            "Chatham Island oystercatcher",
+            "torea tai"
+        ],
+        "status": "Nationally Critical",
+        "photo": {
+            "credit": "Alan Tennyson",
+            "source": "data/images/chatham-island-oystercatcher-4.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 48.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 600.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u016bturiwhatu",
+        "english_name": "Banded dotterel",
+        "scientific_name": "Charadrius bicinctus",
+        "order": "Charadriiformes",
+        "family": "Charadriidae",
+        "other_names": [
+            "Banded dotterel",
+            "Pohowera",
+            "double-banded plover",
+            "tuturiwhatu"
+        ],
+        "status": "Declining",
+        "photo": {
+            "credit": "Ormond Torr",
+            "source": "data/images/banded-dotterel-3.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 20.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 60.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u016bturiwhatu",
+        "english_name": "New Zealand dotterel",
+        "scientific_name": "Charadrius obscurus",
+        "order": "Charadriiformes",
+        "family": "Charadriidae",
+        "other_names": [
+            "New Zealand dotterel",
+            "red-breasted dotterel",
+            "tuturiwhatu",
+            "tuturiwhatu-pukunui",
+            "rako"
+        ],
+        "status": "Recovering",
+        "photo": {
+            "credit": "Tony Whitehead",
+            "source": "data/images/new-zealand-dotterel-1.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 25.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 153.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "T\u016b\u012b",
+        "english_name": "Tui",
+        "scientific_name": "Prosthemadera novaeseelandiae",
+        "order": "Passeriformes",
+        "family": "Meliphagidae",
+        "other_names": [
+            "Tui",
+            "parson bird",
+            "t\u016b\u012b",
+            "k\u014dk\u014d",
+            "koko"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Neil Fitzgerald",
+            "source": "data/images/tui-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 30.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 107.5,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Weka",
+        "english_name": "Weka",
+        "scientific_name": "Gallirallus australis",
+        "order": "Gruiformes",
+        "family": "Rallidae",
+        "other_names": [
+            "woodhen"
+        ],
+        "status": "Not Threatened",
+        "photo": {
+            "credit": "Les Feasey",
+            "source": "data/images/weka-2.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 55.0,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 915.0,
+                "units": "g"
+            }
+        }
+    },
+    {
+        "primary_name": "Whio",
+        "english_name": "Blue duck",
+        "scientific_name": "Hymenolaimus malacorhynchos",
+        "order": "Anseriformes",
+        "family": "Anatidae",
+        "other_names": [
+            "Blue duck",
+            "mountain duck",
+            "blue mountain duck"
+        ],
+        "status": "Nationally Vulnerable",
+        "photo": {
+            "credit": "Les Feasey",
+            "source": "data/images/blue-duck-5.jpg"
+        },
+        "size": {
+            "length": {
+                "value": 52.5,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 835.0,
+                "units": "g"
+            }
+        }
+    },
+
+
+    {
+        "primary_name": "Manu Nui",
+        "english_name": "Big Bird",
+        "scientific_name": "Biggus Birdus",
+        "order": "Anseriformes",
+        "family": "Anatidae",
+        "other_names": [
+            "Nightmare Fuel"
+        ],
+        "status": "Extinct",
+        "photo": {
+            "credit": "Google",
+            "source": "data:image/jpeg;base64,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"
+        },
+        "size": {
+            "length": {
+                "value": 182.88,
+                "units": "cm"
+            },
+            "weight": {
+                "value": 93000.0,
+                "units": "g"
+            }
+        }
+    }
+]
